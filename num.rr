@@ -1,0 +1,29 @@
+
+def sum(N) {
+ S= 0 ;
+ for(I = 0;I <= N;I++){
+  S = S + I;
+ }
+ return S ;
+}
+
+def numCompare(A,B){
+ if(A>B){
+ return 1;
+ }
+ if(A<B){
+ return -1;
+ }
+ else{
+ return 0;
+ }
+}
+def numEquals(A,B){
+ if(A==B){
+ return true;
+ }
+ else{
+ return false;
+ }
+}
+end$
